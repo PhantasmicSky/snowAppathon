@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_suggestion_reader_sys_suggestion_reader_group">
+    <m2m_sys_suggestion_reader_sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <reader_requested_fields/>
+        <reader_searchable_fields/>
+        <sys_class_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>armae.onrade</sys_created_by>
+        <sys_created_on>2023-04-24 11:00:43</sys_created_on>
+        <sys_id>7123045b0fd2211046ebd22af30d6e5d</sys_id>
+        <sys_name/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_suggestion_reader_group_id display_value="Recent Search Reader Group for Starter Workspace AI Search Configuration">b123045b92d2211005f84ece64ea3e5a</sys_suggestion_reader_group_id>
+        <sys_suggestion_reader_id display_value="User History Reader">1ee419777320001052c7d5fdbdf6a7ad</sys_suggestion_reader_id>
+        <sys_update_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group_7123045b0fd2211046ebd22af30d6e5d</sys_update_name>
+    </m2m_sys_suggestion_reader_sys_suggestion_reader_group>
+</record_update>

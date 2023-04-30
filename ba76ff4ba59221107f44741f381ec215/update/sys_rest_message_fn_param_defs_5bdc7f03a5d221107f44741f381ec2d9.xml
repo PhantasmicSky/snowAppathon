@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE">
+        <name>key</name>
+        <order>100</order>
+        <rest_message_function display_value="GET Youtube Comments">56bc3743a5d221107f44741f381ec287</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-24 10:34:12</sys_created_on>
+        <sys_id>5bdc7f03a5d221107f44741f381ec2d9</sys_id>
+        <sys_name>key</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_5bdc7f03a5d221107f44741f381ec2d9</sys_update_name>
+        <value>AIzaSyDKVQBjHJY9xOYJCvqho0bqgz97FwKbKB4</value>
+    </sys_rest_message_fn_param_defs>
+</record_update>

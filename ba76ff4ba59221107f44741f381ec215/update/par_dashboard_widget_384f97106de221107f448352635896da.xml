@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">3d23045b12d22110daa64d9f06989c59</canvas>
+        <component display_value="">b999eb8ac52f85df203e43cbf2352fde</component>
+        <component_props>{"filterId":"1gv42lbi4up1ju18b95g","filterName":"Select Sentiment","filterProperties":"{\"tablefields\":[{\"table\":{\"id\":\"x_snc_appathon_app_twitter_mentions\",\"label\":\"Twitter Mentions\",\"count\":3,\"hierarchy\":null},\"field\":{\"id\":\"sentiment\",\"label\":\"Sentiment\",\"type\":\"choice\",\"reference\":null}}],\"defaults\":[],\"booleanLabels\":{},\"emptyOption\":null,\"maxElements\":500,\"listMode\":\"multi\",\"encodedQuery\":null,\"choices\":[{\"value\":\"\",\"selected\":false},{\"value\":\"na\",\"selected\":false},{\"value\":\"positive\",\"selected\":true},{\"value\":\"neutral\",\"selected\":true},{\"value\":\"negative\",\"selected\":true}],\"filterName\":\"Select Sentiment\"}","filterConfigurations":[]}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>charles.valdez</sys_created_by>
+        <sys_created_on>2023-04-28 05:36:17</sys_created_on>
+        <sys_id>384f97106de221107f448352635896da</sys_id>
+        <sys_name/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>par_dashboard_widget_384f97106de221107f448352635896da</sys_update_name>
+        <visualization/>
+        <w>9</w>
+        <x>0</x>
+        <y>21</y>
+    </par_dashboard_widget>
+</record_update>

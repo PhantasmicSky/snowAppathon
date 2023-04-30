@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Youtube Video Comments">9e33485ba5d221107f44741f381ec288</ais_search_source>
+        <label>Youtube Video Comments</label>
+        <name>Youtube Video Comments</name>
+        <order>300</order>
+        <search_context_config display_value="Social Workspace AI Search Configuration">7523045b92d22110d226d202f21a595a</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>armae.onrade</sys_created_by>
+        <sys_created_on>2023-04-24 11:00:59</sys_created_on>
+        <sys_id>d633485ba5d221107f44741f381ec2d8</sys_id>
+        <sys_name>Youtube Video Comments</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sys_search_filter_d633485ba5d221107f44741f381ec2d8</sys_update_name>
+    </sys_search_filter>
+</record_update>

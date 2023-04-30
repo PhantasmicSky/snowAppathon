@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for app social-workspace">7e23445ba5d221107f44741f381ec29f</applicability>
+        <list display_value="All">0b23445ba5d221107f44741f381ec2e4</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>armae.onrade</sys_created_by>
+        <sys_created_on>2023-04-24 11:00:46</sys_created_on>
+        <sys_id>4b23845ba5d221107f44741f381ec224</sys_id>
+        <sys_name/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_4b23845ba5d221107f44741f381ec224</sys_update_name>
+    </sys_ux_applicability_m2m_list>
+</record_update>

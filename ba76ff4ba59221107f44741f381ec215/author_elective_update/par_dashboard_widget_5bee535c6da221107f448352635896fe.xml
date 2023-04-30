@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">3d23045b12d22110daa64d9f06989c59</canvas>
+        <component display_value="">b999eb8ac52f85df203e43cbf2352fde</component>
+        <component_props>{"filterId":"1gv34nmmc77mle6orug8","filterName":"Sentiment","filterProperties":"{\"tablefields\":[{\"table\":{\"id\":\"x_snc_appathon_app_twitter_mentions\",\"label\":\"Twitter Mentions\",\"count\":5,\"hierarchy\":null},\"field\":{\"id\":\"sentiment\",\"label\":\"Sentiment\",\"type\":\"choice\",\"reference\":null}}],\"defaults\":[],\"booleanLabels\":{},\"emptyOption\":null,\"maxElements\":500,\"listMode\":\"single\"}","filterConfigurations":[]}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>charles.valdez</sys_created_by>
+        <sys_created_on>2023-04-28 05:34:48</sys_created_on>
+        <sys_id>5bee535c6da221107f448352635896fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>par_dashboard_widget_5bee535c6da221107f448352635896fe</sys_update_name>
+        <sys_updated_by>charles.valdez</sys_updated_by>
+        <sys_updated_on>2023-04-28 05:34:48</sys_updated_on>
+        <visualization/>
+        <w>8</w>
+        <x>40</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</application>
+        <file_path/>
+        <instance_id>51406a91975ae110ed309a34a253af79</instance_id>
+        <instance_name>aes-cd-apr18-514-005</instance_name>
+        <name>par_dashboard_widget_5bee535c6da221107f448352635896fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">3d23045b12d22110daa64d9f06989c59</canvas><component display_value="">b999eb8ac52f85df203e43cbf2352fde</component><component_props>{"filterId":"1gv34nmmc77mle6orug8","filterName":"Sentiment","filterProperties":"{\"tablefields\":[{\"table\":{\"id\":\"x_snc_appathon_app_twitter_mentions\",\"label\":\"Twitter Mentions\",\"count\":5,\"hierarchy\":null},\"field\":{\"id\":\"sentiment\",\"label\":\"Sentiment\",\"type\":\"choice\",\"reference\":null}}],\"defaults\":[],\"booleanLabels\":{},\"emptyOption\":null,\"maxElements\":500,\"listMode\":\"single\"}","filterConfigurations":[]}</component_props><h>3</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>charles.valdez</sys_created_by><sys_created_on>2023-04-28 05:34:48</sys_created_on><sys_id>5bee535c6da221107f448352635896fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package><sys_policy/><sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope><sys_update_name>par_dashboard_widget_5bee535c6da221107f448352635896fe</sys_update_name><sys_updated_by>charles.valdez</sys_updated_by><sys_updated_on>2023-04-28 05:34:48</sys_updated_on><visualization/><w>8</w><x>40</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>474465146</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f276ff4ba59221107f44741f381ec218</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>charles.valdez</sys_created_by>
+        <sys_created_on>2023-04-28 05:34:48</sys_created_on>
+        <sys_id>1fee535c6da221107f448352635896ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187c65b5c9d0000001</sys_recorded_at>
+        <sys_updated_by>charles.valdez</sys_updated_by>
+        <sys_updated_on>2023-04-28 05:34:48</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>57ee535c0aa22110e395315bb7422aff</update_guid>
+        <update_guid_history>57ee535c0aa22110e395315bb7422aff:474465146</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">344f53506de221107f44835263589695</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>charles.valdez</sys_created_by>
+        <sys_created_on>2023-04-28 05:36:17</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>0047755330874fc08360f729bc934400</sys_id>
+        <sys_metadata>5bee535c6da221107f448352635896fe</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_scope_delete display_value="">3717d5f026384796bbf27a4d5d5169f1</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_5bee535c6da221107f448352635896fe</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_5bee535c6da221107f448352635896fe">1fee535c6da221107f448352635896ff</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

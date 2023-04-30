@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8b173b8ba59221107f44741f381ec293" label="Campaigns" max_length="40" name="x_snc_appathon_app_campaigns" text_index="true" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="Campaign Name" max_length="1000" name="campaign_name" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+    </element>
+</database>

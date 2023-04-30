@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">3d23045b12d22110daa64d9f06989c59</canvas>
+        <component display_value="Dial">63f050cf050137731a828878839e0b33</component>
+        <component_props>{"configVersion":"22.1.7","minValue":-1,"maxValue":1,"innerRadius":0.7,"valueLabelSize":"md","showZero":true,"colorConfig":{"type":"singleColor","values":[{"color":"f9394cc3730033000b9dff603ef6a73a","metric":"ZEdGaWJHVjRYM051WTE5aGNIQmhkR2h2Ymw5aGNIQmZlVzkxZEhWaVpWOTJhV1JsYjE5amIyMXRaVzUwY3pFMk9ESXpORFF3TnpRME1qUT0xNjgyMzQ0MDc1NzI1","rules":[]}]},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Youtube Video Comments","sourceType":"table","tableOrViewName":"x_snc_appathon_app_youtube_video_comments","id":"dGFibGV4X3NuY19hcHBhdGhvbl9hcHBfeW91dHViZV92aWRlb19jb21tZW50czE2ODIzNDQwNzQ0MjQ=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Average Sentiments Score","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X3NuY19hcHBhdGhvbl9hcHBfeW91dHViZV92aWRlb19jb21tZW50czE2ODIzNDQwNzQ0MjQ=","id":"ZEdGaWJHVjRYM051WTE5aGNIQmhkR2h2Ymw5aGNIQmZlVzkxZEhWaVpWOTJhV1JsYjE5amIyMXRaVzUwY3pFMk9ESXpORFF3TnpRME1qUT0xNjgyMzQ0MDc1NzI1","aggregateFunction":"AVG","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"sentiment_score"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":false,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"refreshFrequency":false,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":null,"period":"M","dateFormat":"default"}</component_props>
+        <h>16</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>armae.onrade</sys_created_by>
+        <sys_created_on>2023-04-24 11:20:22</sys_created_on>
+        <sys_id>96a7c813a51621107f44741f381ec224</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>par_dashboard_widget_96a7c813a51621107f44741f381ec224</sys_update_name>
+        <sys_updated_by>charles.valdez</sys_updated_by>
+        <sys_updated_on>2023-04-28 05:36:17</sys_updated_on>
+        <visualization/>
+        <w>11</w>
+        <x>37</x>
+        <y>10</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</application>
+        <file_path/>
+        <instance_id>51406a91975ae110ed309a34a253af79</instance_id>
+        <instance_name>aes-cd-apr18-514-005</instance_name>
+        <name>par_dashboard_widget_96a7c813a51621107f44741f381ec224</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">3d23045b12d22110daa64d9f06989c59</canvas><component display_value="Dial">63f050cf050137731a828878839e0b33</component><component_props>{"configVersion":"22.1.7","minValue":-1,"maxValue":1,"innerRadius":0.7,"valueLabelSize":"md","showZero":true,"colorConfig":{"type":"singleColor","values":[{"color":"f9394cc3730033000b9dff603ef6a73a","metric":"ZEdGaWJHVjRYM051WTE5aGNIQmhkR2h2Ymw5aGNIQmZlVzkxZEhWaVpWOTJhV1JsYjE5amIyMXRaVzUwY3pFMk9ESXpORFF3TnpRME1qUT0xNjgyMzQ0MDc1NzI1","rules":[]}]},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Youtube Video Comments","sourceType":"table","tableOrViewName":"x_snc_appathon_app_youtube_video_comments","id":"dGFibGV4X3NuY19hcHBhdGhvbl9hcHBfeW91dHViZV92aWRlb19jb21tZW50czE2ODIzNDQwNzQ0MjQ=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Average Sentiments Score","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X3NuY19hcHBhdGhvbl9hcHBfeW91dHViZV92aWRlb19jb21tZW50czE2ODIzNDQwNzQ0MjQ=","id":"ZEdGaWJHVjRYM051WTE5aGNIQmhkR2h2Ymw5aGNIQmZlVzkxZEhWaVpWOTJhV1JsYjE5amIyMXRaVzUwY3pFMk9ESXpORFF3TnpRME1qUT0xNjgyMzQ0MDc1NzI1","aggregateFunction":"AVG","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"sentiment_score"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":false,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"refreshFrequency":false,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":null,"period":"M","dateFormat":"default"}</component_props><h>16</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>armae.onrade</sys_created_by><sys_created_on>2023-04-24 11:20:22</sys_created_on><sys_id>96a7c813a51621107f44741f381ec224</sys_id><sys_mod_count>9</sys_mod_count><sys_name/><sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package><sys_policy/><sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope><sys_update_name>par_dashboard_widget_96a7c813a51621107f44741f381ec224</sys_update_name><sys_updated_by>charles.valdez</sys_updated_by><sys_updated_on>2023-04-28 05:36:17</sys_updated_on><visualization/><w>11</w><x>37</x><y>10</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>452374249</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f276ff4ba59221107f44741f381ec218</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>charles.valdez</sys_created_by>
+        <sys_created_on>2023-04-28 05:36:17</sys_created_on>
+        <sys_id>784f53506de221107f44835263589692</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187c65cb6c40000001</sys_recorded_at>
+        <sys_updated_by>charles.valdez</sys_updated_by>
+        <sys_updated_on>2023-04-28 05:36:17</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>f04f535073e221103ce05adca2922e92</update_guid>
+        <update_guid_history>f04f535073e221103ce05adca2922e92:452374249,8da1ac27791221108618f3321274c661:-1597013593,8380f49b02962110201ab69c557506f3:1011405503,c010fc5b0296211018af6342ca56f6e9:-1348585641,8a4e241b289621106aac38dd8b170cea:253235875,7a1d60d7789621105ad5b951fb294fcf:-1325325508,9b9aa8173196211037c0dcfe57472bfb:-103007929,cdc928d32c9621109fc493deb5f36976:-1273347439,74a92cd3b3962110c92065e83fdc1526:1408567084,96a7c8131416211031970cccd5da0225:-1965176756</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">08b19da06daa21107f44835263589683</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>armae.onrade</sys_created_by>
+        <sys_created_on>2023-04-28 13:56:12</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>304604b427524f408e10ca8260fca001</sys_id>
+        <sys_metadata>96a7c813a51621107f44741f381ec224</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_scope_delete display_value="">3717d5f026384796bbf27a4d5d5169f1</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_96a7c813a51621107f44741f381ec224</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_96a7c813a51621107f44741f381ec224">784f53506de221107f44835263589692</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

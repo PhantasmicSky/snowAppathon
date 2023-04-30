@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="61e73bcba59221107f44741f381ec2ea" label="Youtube Videos Tracked" max_length="40" name="x_snc_appathon_app_youtube_videos_tracked" text_index="true" type="collection">
+        <element label="Campaign" max_length="32" name="campaign" reference="x_snc_appathon_app_campaigns" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Remove Tracking" max_length="40" name="remove_tracking" type="boolean"/>
+        <element label="Video ID" max_length="40" name="video_id" type="string"/>
+        <element display="true" label="Video Name" max_length="1000" name="video_name" type="string"/>
+        <index name="index">
+            <element name="campaign"/>
+        </index>
+    </element>
+</database>

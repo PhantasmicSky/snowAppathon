@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+"document": {&#13;
+"type": "PLAIN_TEXT",&#13;
+"referenceWebUri": "string",&#13;
+"boilerplateHandling": "SKIP_BOILERPLATE",&#13;
+"content":" ${content}"&#13;
+},&#13;
+    "encodingType": "NONE"&#13;
+}</content>
+        <function_name>POST Sentiment</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Youtube User Analytics [ POST Sentiment ]</qualified_name>
+        <rest_endpoint>https://language.googleapis.com/v1beta2/documents:analyzeSentiment</rest_endpoint>
+        <rest_message display_value="Youtube User Analytics">b68c7343a5d221107f44741f381ec217</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-24 10:36:29</sys_created_on>
+        <sys_id>715d7f03a5d221107f44741f381ec214</sys_id>
+        <sys_name>POST Sentiment</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sys_rest_message_fn_715d7f03a5d221107f44741f381ec214</sys_update_name>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b6f9f8e86d2a21107f448352635896a7" label="Followers" max_length="40" name="x_snc_appathon_app_followers" type="collection">
+        <element label="Follower Count" max_length="40" name="follower_count" type="integer"/>
+    </element>
+</database>

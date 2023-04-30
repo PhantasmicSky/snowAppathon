@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="829e7fc3a5d221107f44741f381ec200" label="Twitter Mentions" max_length="40" name="x_snc_appathon_app_twitter_mentions" text_index="true" type="collection">
+        <element label="Favorites" max_length="40" name="favorites" type="integer"/>
+        <element label="Followers Count" max_length="40" name="followers_count" type="integer"/>
+        <element label="Mention" max_length="10000" name="mention" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Retweets" max_length="40" name="retweeted" type="integer"/>
+        <element choice="1" default="na" label="Sentiment" max_length="40" name="sentiment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="NA" sequence="0" value="na"/>
+                <element inactive_on_update="false" label="Positive" sequence="1" value="positive"/>
+                <element inactive_on_update="false" label="Neutral" sequence="2" value="neutral"/>
+                <element inactive_on_update="false" label="Negative" sequence="3" value="negative"/>
+            </choice>
+        </element>
+        <element label="Sentiment Score" max_length="40" name="sentiment_score" type="float"/>
+        <element label="URL" max_length="1000" name="url" type="string"/>
+        <element label="Username" max_length="50" name="username" type="string"/>
+    </element>
+</database>

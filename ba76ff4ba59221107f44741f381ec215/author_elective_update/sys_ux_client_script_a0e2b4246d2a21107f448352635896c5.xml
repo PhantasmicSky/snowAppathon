@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Home">f123045bdad22110ab69a01767f4705d</macroponent>
+        <name>stylized_text_5/text</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  if(api.data.look_up_record_1.result.total_score.value > 80){
+    return 'Excellent! Your customers are engaged and very happy with your brand.';
+  }
+  else if (api.data.look_up_record_1.result.total_score.value > 50){
+    return 'Good. Your customers would have likely interacted with your brand';
+  }
+  else if (api.data.look_up_record_1.result.total_score.value > 25){
+    return 'Needs Improvement. You may need to change your tactics to ensure that customers will interact with your brand.';
+  }
+  else{
+    return 'You may want to restrategize on how you will market your brand in various Social Media Platforms.'
+  }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-28 11:41:37</sys_created_on>
+        <sys_id>a0e2b4246d2a21107f448352635896c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>stylized_text_5/text</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sys_ux_client_script_a0e2b4246d2a21107f448352635896c5</sys_update_name>
+        <sys_updated_by>julius.balgos</sys_updated_by>
+        <sys_updated_on>2023-04-28 11:41:37</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</application>
+        <file_path/>
+        <instance_id>51406a91975ae110ed309a34a253af79</instance_id>
+        <instance_name>aes-cd-apr18-514-005</instance_name>
+        <name>sys_ux_client_script_a0e2b4246d2a21107f448352635896c5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;f123045bdad22110ab69a01767f4705d&lt;/macroponent&gt;&lt;name&gt;stylized_text_5/text&lt;/name&gt;&lt;preset/&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  if(api.data.look_up_record_1.result.total_score.value &gt; 80){
+    return 'Excellent! Your customers are engaged and very happy with your brand.';
+  }
+  else if (api.data.look_up_record_1.result.total_score.value &gt; 50){
+    return 'Good. Your customers would have likely interacted with your brand';
+  }
+  else if (api.data.look_up_record_1.result.total_score.value &gt; 25){
+    return 'Needs Improvement. You may need to change your tactics to ensure that customers will interact with your brand.';
+  }
+  else{
+    return 'You may want to restrategize on how you will market your brand in various Social Media Platforms.'
+  }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;julius.balgos&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-28 11:41:37&lt;/sys_created_on&gt;&lt;sys_id&gt;a0e2b4246d2a21107f448352635896c5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;stylized_text_5/text&lt;/sys_name&gt;&lt;sys_package display_value="Appathon App" source="x_snc_appathon_app"&gt;ba76ff4ba59221107f44741f381ec215&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Appathon App"&gt;ba76ff4ba59221107f44741f381ec215&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_a0e2b4246d2a21107f448352635896c5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;julius.balgos&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-28 11:41:37&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1828077241</payload_hash>
+        <record_name>stylized_text_5/text</record_name>
+        <reverted_from/>
+        <source>f276ff4ba59221107f44741f381ec218</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-28 11:41:38</sys_created_on>
+        <sys_id>e0e2b4246d2a21107f448352635896cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187c7ab31fe0000001</sys_recorded_at>
+        <sys_updated_by>julius.balgos</sys_updated_by>
+        <sys_updated_on>2023-04-28 11:41:38</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>6ce2b424102a2110eae69d3369c69eca</update_guid>
+        <update_guid_history>6ce2b424102a2110eae69d3369c69eca:1828077241</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-28 11:42:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>123911e83e014da69a2c7020e738c484</sys_id>
+        <sys_metadata>a0e2b4246d2a21107f448352635896c5</sys_metadata>
+        <sys_name>stylized_text_5/text</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_scope_delete display_value="">3717d5f026384796bbf27a4d5d5169f1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_a0e2b4246d2a21107f448352635896c5</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_a0e2b4246d2a21107f448352635896c5">e0e2b4246d2a21107f448352635896cb</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

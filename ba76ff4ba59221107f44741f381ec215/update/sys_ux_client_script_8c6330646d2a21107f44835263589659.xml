@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Home">f123045bdad22110ab69a01767f4705d</macroponent>
+        <name>stylized_text_5/text</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  if(api.data.look_up_record_1.result.total_score.value > 80){
+    return 'Excellent! Your customers are engaged and very happy with your brand.';
+  }
+  else if (api.data.look_up_record_1.result.total_score.value > 50){
+    return 'Good. Your customers would have likely interacted with your brand';
+  }
+  else if (api.data.look_up_record_1.result.total_score.value > 25){
+    return 'Needs Improvement. You may need to change your tactics to ensure that customers will interact with your brand.';
+  }
+  else{
+    return 'You may want to restrategize on how you will market your brand in various Social Media Platforms.'
+  }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-28 11:43:46</sys_created_on>
+        <sys_id>8c6330646d2a21107f44835263589659</sys_id>
+        <sys_name>stylized_text_5/text</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sys_ux_client_script_8c6330646d2a21107f44835263589659</sys_update_name>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c4fa0017a51621107f44741f381ec26f" label="Tweets" max_length="40" name="x_snc_appathon_app_tweets" type="collection">
+        <element label="Impressions" max_length="40" name="impressions" type="integer"/>
+        <element label="Likes" max_length="40" name="likes" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Quote Retweet" max_length="40" name="quotes" type="integer"/>
+        <element label="Retweets" max_length="40" name="retweets" type="integer"/>
+        <element label="Tweet" max_length="10000" name="tweet" type="string"/>
+    </element>
+</database>

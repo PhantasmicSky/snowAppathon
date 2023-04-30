@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Home">f123045bdad22110ab69a01767f4705d</macroponent>
+        <name>New client script 1</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "alert1",
+            status: "critical",
+            icon: "circle-check-outline",
+            content: {
+                type: "html",
+                value: "<h4>" + api.state.selectedCampaign + "<h4>"
+            },
+            action: {
+                type: "dismiss"
+            },
+        }]
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-25 09:03:21</sys_created_on>
+        <sys_id>74e1f8e7085221107f445edf8a4bbc0d</sys_id>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sys_ux_client_script_74e1f8e7085221107f445edf8a4bbc0d</sys_update_name>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>8f0ec3492c5f441781f1f44f36351242</includes>
+        <macroponent display_value="Home">f123045bdad22110ab69a01767f4705d</macroponent>
+        <name>Filter Changer YT Comments</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    //set text filter presence
+    api.setState("textFilterPresence", api.state.selectedCampaign ? 'presence-available-outline' : null);
+
+    const appliedFilters = [{
+        "order": 0,
+        "filterId": "", //We can leave this empty
+        "type": "query",
+        "label": "Campaign",
+        "apply_to": [
+            "x_snc_appathon_app_youtube_video_comments" //More tables can be added here
+        ],
+        //"encoded_query": api.state.selectedCampaign ? `video.campaign.sys_id=${api.state.selectedCampaign}` : null, //If you have applied a default filter on your visualization component then add that here instead of null.
+        "encoded_query": `video.campaign.sys_id=${api.state.selectedCampaign}`,
+        "extraValues": {},
+        "include_unmatched_or_empty": false
+    }];
+
+    const processedFilter = imports['global.mergePARFilters']()(api.state.parFilters, appliedFilters);
+    api.setState("parFilters", processedFilter);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-25 09:28:47</sys_created_on>
+        <sys_id>61b7b4af085221107f445edf8a4bbca7</sys_id>
+        <sys_name>Filter Changer YT Comments</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sys_ux_client_script_61b7b4af085221107f445edf8a4bbca7</sys_update_name>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

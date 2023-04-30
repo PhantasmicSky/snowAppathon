@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b0434c5ba5d221107f44741f381ec203" sys_domain="global" table="x_snc_appathon_app_youtube_videos_tracked" version="3" view="Workspace-Social-Workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_id>f4434c5ba5d221107f44741f381ec204</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_appathon_app_youtube_videos_tracked" sys_domain="global" view="b923045b93d22110c2f447a59259695b">b0434c5ba5d221107f44741f381ec203</sys_ui_section>
+            <sys_updated_by>armae.onrade</sys_updated_by>
+            <sys_updated_on>2023-04-24 11:01:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>video_name</element>
+            <position>1</position>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_id>78434c5ba5d221107f44741f381ec204</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_appathon_app_youtube_videos_tracked" sys_domain="global" view="b923045b93d22110c2f447a59259695b">b0434c5ba5d221107f44741f381ec203</sys_ui_section>
+            <sys_updated_by>armae.onrade</sys_updated_by>
+            <sys_updated_on>2023-04-24 11:01:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>video_id</element>
+            <position>2</position>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_id>f8434c5ba5d221107f44741f381ec204</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_appathon_app_youtube_videos_tracked" sys_domain="global" view="b923045b93d22110c2f447a59259695b">b0434c5ba5d221107f44741f381ec203</sys_ui_section>
+            <sys_updated_by>armae.onrade</sys_updated_by>
+            <sys_updated_on>2023-04-24 11:01:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>campaign</element>
+            <position>3</position>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_id>7c434c5ba5d221107f44741f381ec204</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_appathon_app_youtube_videos_tracked" sys_domain="global" view="b923045b93d22110c2f447a59259695b">b0434c5ba5d221107f44741f381ec203</sys_ui_section>
+            <sys_updated_by>armae.onrade</sys_updated_by>
+            <sys_updated_on>2023-04-24 11:01:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remove_tracking</element>
+            <position>4</position>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_id>fc434c5ba5d221107f44741f381ec204</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_appathon_app_youtube_videos_tracked" sys_domain="global" view="b923045b93d22110c2f447a59259695b">b0434c5ba5d221107f44741f381ec203</sys_ui_section>
+            <sys_updated_by>armae.onrade</sys_updated_by>
+            <sys_updated_on>2023-04-24 11:01:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_appathon_app_youtube_videos_tracked</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0434c5ba5d221107f44741f381ec203</sys_id>
+            <sys_name>x_snc_appathon_app_youtube_videos_tracked</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+            <sys_update_name>sys_ui_section_b0434c5ba5d221107f44741f381ec203</sys_update_name>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Social Workspace 0" name="Workspace-Social-Workspace-0">b923045b93d22110c2f447a59259695b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Get Twitter Mention Sentiments</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Julius Balgos">51f3a7c7a55221107f44741f381ec241</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-04-24 11:31:19</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var gr = new GlideRecord("x_snc_appathon_app_twitter_mentions");
+gr.addEncodedQuery("sentiment=na");
+gr.query();
+while(gr.next()){
+	try{var videoResult = new sn_ws.RESTMessageV2("Youtube User Analytics","POST Sentiment");
+	videoResult.setStringParameterNoEscape("content", gr.mention);
+	var response = videoResult.execute();
+    var responseBody = response.getBody();
+	var jsonBody = JSON.parse(responseBody);
+	gr.sentiment_score = jsonBody.documentSentiment.score;
+	if(jsonBody.documentSentiment.score > 0.3){
+		gr.sentiment = "positive";
+	}
+	else if (jsonBody.documentSentiment.score < -0.3){
+		gr.sentiment = "negative";
+	}
+	else{
+		gr.sentiment = "neutral";
+	}
+	gr.update();}
+	catch (e){
+		
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-24 11:40:47</sys_created_on>
+        <sys_id>dd5c4057a51621107f44741f381ec221</sys_id>
+        <sys_name>Get Twitter Mention Sentiments</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sysauto_script_dd5c4057a51621107f44741f381ec221</sys_update_name>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

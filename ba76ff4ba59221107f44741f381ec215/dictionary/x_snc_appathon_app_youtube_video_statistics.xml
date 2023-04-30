@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e7d8fb0fa59221107f44741f381ec241" label="Youtube Video Statistics" max_length="40" name="x_snc_appathon_app_youtube_video_statistics" text_index="true" type="collection">
+        <element label="Comment Count" max_length="40" name="comment_count" type="integer"/>
+        <element label="Favorite Count" max_length="40" name="favorite_count" type="integer"/>
+        <element label="Like Count" max_length="40" name="like_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Video" max_length="32" name="video" reference="x_snc_appathon_app_youtube_videos_tracked" type="reference"/>
+        <element label="View Count" max_length="40" name="view_count" type="integer"/>
+        <index name="index">
+            <element name="video"/>
+        </index>
+    </element>
+</database>

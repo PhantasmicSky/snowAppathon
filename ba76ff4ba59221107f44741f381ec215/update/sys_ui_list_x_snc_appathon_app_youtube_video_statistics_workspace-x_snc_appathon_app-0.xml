@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_appathon_app_youtube_video_statistics" version="2" view="Workspace-Social-Workspace-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_appathon_app_youtube_video_statistics" element="NULL" name="x_snc_appathon_app_youtube_video_statistics" parent="NULL" relationship="NULL" sys_domain="global" view="b923045b93d22110c2f447a59259695b">a8434c5ba5d221107f44741f381ec212</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_id>24434c5ba5d221107f44741f381ec213</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>armae.onrade</sys_updated_by>
+            <sys_updated_on>2023-04-24 11:01:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comment_count</element>
+            <list_id display_value="x_snc_appathon_app_youtube_video_statistics" element="NULL" name="x_snc_appathon_app_youtube_video_statistics" parent="NULL" relationship="NULL" sys_domain="global" view="b923045b93d22110c2f447a59259695b">a8434c5ba5d221107f44741f381ec212</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_id>a4434c5ba5d221107f44741f381ec213</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>armae.onrade</sys_updated_by>
+            <sys_updated_on>2023-04-24 11:01:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>favorite_count</element>
+            <list_id display_value="x_snc_appathon_app_youtube_video_statistics" element="NULL" name="x_snc_appathon_app_youtube_video_statistics" parent="NULL" relationship="NULL" sys_domain="global" view="b923045b93d22110c2f447a59259695b">a8434c5ba5d221107f44741f381ec212</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_id>28434c5ba5d221107f44741f381ec213</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>armae.onrade</sys_updated_by>
+            <sys_updated_on>2023-04-24 11:01:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>like_count</element>
+            <list_id display_value="x_snc_appathon_app_youtube_video_statistics" element="NULL" name="x_snc_appathon_app_youtube_video_statistics" parent="NULL" relationship="NULL" sys_domain="global" view="b923045b93d22110c2f447a59259695b">a8434c5ba5d221107f44741f381ec212</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_id>a8434c5ba5d221107f44741f381ec213</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>armae.onrade</sys_updated_by>
+            <sys_updated_on>2023-04-24 11:01:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>video</element>
+            <list_id display_value="x_snc_appathon_app_youtube_video_statistics" element="NULL" name="x_snc_appathon_app_youtube_video_statistics" parent="NULL" relationship="NULL" sys_domain="global" view="b923045b93d22110c2f447a59259695b">a8434c5ba5d221107f44741f381ec212</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_id>2c434c5ba5d221107f44741f381ec213</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>armae.onrade</sys_updated_by>
+            <sys_updated_on>2023-04-24 11:01:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>view_count</element>
+            <list_id display_value="x_snc_appathon_app_youtube_video_statistics" element="NULL" name="x_snc_appathon_app_youtube_video_statistics" parent="NULL" relationship="NULL" sys_domain="global" view="b923045b93d22110c2f447a59259695b">a8434c5ba5d221107f44741f381ec212</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_id>ac434c5ba5d221107f44741f381ec213</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>armae.onrade</sys_updated_by>
+            <sys_updated_on>2023-04-24 11:01:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_appathon_app_youtube_video_statistics</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>armae.onrade</sys_created_by>
+            <sys_created_on>2023-04-24 11:01:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8434c5ba5d221107f44741f381ec212</sys_id>
+            <sys_name>x_snc_appathon_app_youtube_video_statistics</sys_name>
+            <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_appathon_app_youtube_video_statistics_Workspace-x_snc_appathon_app-0</sys_update_name>
+            <sys_user/>
+            <view display_value="Workspace Social Workspace 0" name="Workspace-Social-Workspace-0">b923045b93d22110c2f447a59259695b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

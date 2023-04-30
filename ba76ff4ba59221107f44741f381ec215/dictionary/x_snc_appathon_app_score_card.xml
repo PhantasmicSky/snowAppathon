@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cadc942c6da621107f448352635896cb" label="Score card" max_length="40" name="x_snc_appathon_app_score_card" type="collection">
+        <element label="Total Score" max_length="40" name="total_score" type="integer"/>
+        <element label="TW1" max_length="40" name="tw1" type="integer"/>
+        <element label="TW2" max_length="40" name="tw2" type="integer"/>
+        <element label="TW3" max_length="40" name="tw3" type="integer"/>
+        <element label="TW4" max_length="40" name="tw4" type="integer"/>
+        <element label="YT1" max_length="40" name="yt1" type="integer"/>
+        <element label="YT2" max_length="40" name="yt2" type="integer"/>
+        <element label="YT3" max_length="40" name="yt3" type="integer"/>
+        <element label="YT4" max_length="40" name="yt4" type="integer"/>
+    </element>
+</database>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">3d23045b12d22110daa64d9f06989c59</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"22.1.7","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Campaigns","sourceType":"table","tableOrViewName":"x_snc_appathon_app_campaigns","filterQuery":"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","id":"dGFibGV0YXNrMTY1Mzg0MTkxNzIyOA==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Active Campaigns","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV0YXNrMTY1Mzg0MTkxNzIyOA==","id":"ZEdGaWJHVjBZWE5yTVRZMU16ZzBNVGt4TnpJeU9BPT0xNjUzODQyMzE4NDk1","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default"}</component_props>
+        <h>9</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>armae.onrade</sys_created_by>
+        <sys_created_on>2023-04-24 11:00:41</sys_created_on>
+        <sys_id>3523045ba9d221108f1ef03e46982d5f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>par_dashboard_widget_3523045ba9d221108f1ef03e46982d5f</sys_update_name>
+        <sys_updated_by>julius.balgos</sys_updated_by>
+        <sys_updated_on>2023-04-26 08:54:28</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>12</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</application>
+        <file_path/>
+        <instance_id>51406a91975ae110ed309a34a253af79</instance_id>
+        <instance_name>aes-cd-apr18-514-005</instance_name>
+        <name>par_dashboard_widget_3523045ba9d221108f1ef03e46982d5f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">3d23045b12d22110daa64d9f06989c59</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"configVersion":"22.1.7","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Campaigns","sourceType":"table","tableOrViewName":"x_snc_appathon_app_campaigns","filterQuery":"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","id":"dGFibGV0YXNrMTY1Mzg0MTkxNzIyOA==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Active Campaigns","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV0YXNrMTY1Mzg0MTkxNzIyOA==","id":"ZEdGaWJHVjBZWE5yTVRZMU16ZzBNVGt4TnpJeU9BPT0xNjUzODQyMzE4NDk1","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default"}</component_props><h>9</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>armae.onrade</sys_created_by><sys_created_on>2023-04-24 11:00:41</sys_created_on><sys_id>3523045ba9d221108f1ef03e46982d5f</sys_id><sys_mod_count>7</sys_mod_count><sys_name/><sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package><sys_policy/><sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope><sys_update_name>par_dashboard_widget_3523045ba9d221108f1ef03e46982d5f</sys_update_name><sys_updated_by>julius.balgos</sys_updated_by><sys_updated_on>2023-04-26 08:54:28</sys_updated_on><visualization/><w>12</w><x>12</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1854465871</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f276ff4ba59221107f44741f381ec218</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-26 08:54:28</sys_created_on>
+        <sys_id>6479bdb78dd221107f44b16d7ede35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187bcc5708a0000001</sys_recorded_at>
+        <sys_updated_by>julius.balgos</sys_updated_by>
+        <sys_updated_on>2023-04-26 08:54:28</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>ec79bdb7bbd221101064c6881c18e4a2</update_guid>
+        <update_guid_history>ec79bdb7bbd221101064c6881c18e4a2:1854465871,6a1d60d75796211062f25d0a3cda9cbf:1371243800,db9aa817e5962110d60032242dc774f6:703518361,c3368c9f90d221100d7b9e5e9c47ed59:-2030713322,48a5849fb6d2211085a5082526cbedc0:1961518073,d255085fa5d22110d23517103c8cc3fd:1579173640,7e23445bc3d22110bee67081a6dc26a8:2037830406,7a23445b46d221106588177ca0613ba7:1538083650</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3d5afdf78dd221107f44b16d7ede3506</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-26 08:58:23</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>114964df78cd496082924f6e8e33b440</sys_id>
+        <sys_metadata>3523045ba9d221108f1ef03e46982d5f</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_scope_delete display_value="">3717d5f026384796bbf27a4d5d5169f1</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_3523045ba9d221108f1ef03e46982d5f</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_3523045ba9d221108f1ef03e46982d5f">6479bdb78dd221107f44b16d7ede35a3</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

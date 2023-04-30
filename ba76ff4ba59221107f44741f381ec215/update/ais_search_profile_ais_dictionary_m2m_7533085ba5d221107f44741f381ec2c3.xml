@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_snc_appathon_app_social_workspace_search_profile_default_spell_check_dictionary">7933085ba5d221107f44741f381ec2c0</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="Social Workspace search profile">f123045b55d2211088a4072e3644545f</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>armae.onrade</sys_created_by>
+        <sys_created_on>2023-04-24 11:00:57</sys_created_on>
+        <sys_id>7533085ba5d221107f44741f381ec2c3</sys_id>
+        <sys_name>x_snc_appathon_app_social_workspace_search_profile_default_spell_check_dictionary.Social Workspace search profile</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_7533085ba5d221107f44741f381ec2c3</sys_update_name>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Compute Total Score</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Julius Balgos">51f3a7c7a55221107f44741f381ec241</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 01:00:00</run_period>
+        <run_start>2023-04-28 10:18:42</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var gr = new GlideRecord("x_snc_appathon_app_score_card");
+gr.query();
+if(gr.next()){
+	var y1 = 0;
+	var y2 = 0;
+	var y3 = 0;
+	var y4 = 0;
+	var count1 = 0;
+	var count2 = 0;
+    var duplicateYTFind = [];
+	//Youtube Get Current Campaigns Active
+	var gr2 = new GlideRecord("x_snc_appathon_app_youtube_video_statistics");
+gr2.addEncodedQuery("video.campaign.start_date<=javascript:gs.endOfToday()^video.campaign.end_date>=javascript:gs.beginningOfToday()");
+	gr2.query();
+	while(gr2.next()){
+        if(duplicateYTFind.indexOf(gr2.getValue("video")) == -1){
+            duplicateYTFind.push(gr2.getValue("video"));
+		count1++;
+		y1 = y1+(gr2.comment_count / gr2.view_count);
+		y2 = y2+(gr2.like_count/gr2.view_count);
+        }
+	}
+	y1 = y1/count1 * 100;
+	y2 = y2/count1 * 100;
+    gs.info(y1);
+    gs.info(y2);
+    gs.info(count1);
+	
+	if(y1 >= 0.5){
+		y1 = 33;
+	}
+	else{
+		y1 = y1/0.5 * 33;
+	}
+	
+	if(y2 >= 4){
+		y2 = 33;
+	}
+	else{
+		y2 = y2/4 * 33;
+	}
+	gr.setValue("yt1", y1);
+	gr.setValue("yt2", y2);
+	
+	var gr3 = new GlideRecord("x_snc_appathon_app_youtube_video_comments");
+	gr3.addEncodedQuery("video.campaign.start_date<=javascript:gs.endOfToday()^video.campaign.end_date>=javascript:gs.beginningOfToday()");
+	gr3.query();
+	while(gr3.next()){
+		count2 = count2+1;
+		y3 = y3+ gr3.sentiment_score;
+	}
+	y3 = y3/count2;
+	y3 = (y3+1)/2 * 33;
+	gr.setValue("yt3", y3);
+	
+	//Twitter Computation here (use t1, t2, t3, t4 to store the values);
+	//Each t1+t2+t3+t4 is expected to total to 100, if you will opt out to not use for example t4, adjust t1,t2,t3 to still total to 100 and leave t4 as 0;
+	var t1 = 0;
+	var t2 = 0;
+	var t3 = 0;
+	var t4 = 0;
+	var count3 = 0;
+	var gr4 = new GlideRecord("x_snc_appathon_app_twitter_mentions");
+	gr4.query();
+	while(gr4.next()){
+		count3 = count3+1;
+		t3 = t3+ gr4.sentiment_score;
+	}
+	t3 = t3/count3;
+	t3 = (t3+1)/2 * 33;
+	gr.setValue("t3", t3);
+	
+	//End Twitter Computation Here
+	
+	var totScore = (y1+y2+y3+y4+t1+t2+t3+t4)/2;
+	gr.setValue("total_score",totScore);
+	gr.update();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-04-28 10:29:39</sys_created_on>
+        <sys_id>39ef18ec6da621107f448352635896b1</sys_id>
+        <sys_name>Compute Total Score</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sysauto_script_39ef18ec6da621107f448352635896b1</sys_update_name>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
