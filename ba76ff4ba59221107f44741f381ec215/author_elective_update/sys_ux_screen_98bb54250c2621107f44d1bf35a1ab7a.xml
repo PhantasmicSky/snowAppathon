@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>false</active>
+        <app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent/>
+        <macroponent_config>{ }</macroponent_config>
+        <name>Dashboard - Test Only default</name>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Dashboard - Test Only">10bb54250c2621107f44d1bf35a1ab74</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>charles.valdez</sys_created_by>
+        <sys_created_on>2023-05-01 12:34:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98bb54250c2621107f44d1bf35a1ab7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard - Test Only default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sys_ux_screen_98bb54250c2621107f44d1bf35a1ab7a</sys_update_name>
+        <sys_updated_by>charles.valdez</sys_updated_by>
+        <sys_updated_on>2023-05-01 12:34:14</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=98bb54250c2621107f44d1bf35a1ab7a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</application>
+        <file_path/>
+        <instance_id>51406a91975ae110ed309a34a253af79</instance_id>
+        <instance_name>aes-cd-apr18-514-005</instance_name>
+        <name>sys_ux_screen_98bb54250c2621107f44d1bf35a1ab7a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>false</active><app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config><description/><event_mappings/><macroponent/><macroponent_config>{ }</macroponent_config><name>Dashboard - Test Only default</name><order>0</order><parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Dashboard - Test Only">10bb54250c2621107f44d1bf35a1ab74</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>charles.valdez</sys_created_by><sys_created_on>2023-05-01 12:34:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>98bb54250c2621107f44d1bf35a1ab7a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Dashboard - Test Only default</sys_name><sys_overrides/><sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package><sys_policy/><sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope><sys_update_name>sys_ux_screen_98bb54250c2621107f44d1bf35a1ab7a</sys_update_name><sys_updated_by>charles.valdez</sys_updated_by><sys_updated_on>2023-05-01 12:34:14</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=98bb54250c2621107f44d1bf35a1ab7a"/></record_update>]]></payload>
+        <payload_hash>1681937652</payload_hash>
+        <record_name>Dashboard - Test Only default</record_name>
+        <reverted_from/>
+        <source>a6e98a952d2221107f44ee56a9593312</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>charles.valdez</sys_created_by>
+        <sys_created_on>2023-05-01 12:45:52</sys_created_on>
+        <sys_id>875e58e50c2621107f44d1bf35a1ab0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187d75917d80000001</sys_recorded_at>
+        <sys_updated_by>charles.valdez</sys_updated_by>
+        <sys_updated_on>2023-05-01 12:45:52</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>d0bb5425a32621101ade2702a4d357a3</update_guid>
+        <update_guid_history>d0bb5425a32621101ade2702a4d357a3:803746090,d0bb5425a32621101ade2702a4d357a3:803746090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>charles.valdez</sys_created_by>
+        <sys_created_on>2023-05-01 12:45:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>0eb4303eb121489792fd9658a13517b9</sys_id>
+        <sys_metadata>98bb54250c2621107f44d1bf35a1ab7a</sys_metadata>
+        <sys_name>Dashboard - Test Only default</sys_name>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_scope_delete display_value="">3717d5f026384796bbf27a4d5d5169f1</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_98bb54250c2621107f44d1bf35a1ab7a</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_98bb54250c2621107f44d1bf35a1ab7a">875e58e50c2621107f44d1bf35a1ab0c</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">4cfe14290c2621107f44d1bf35a1abcb</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"22.1.7","scoreSize":"lg","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":false,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Youtube Video Statistics","sourceType":"table","tableOrViewName":"x_snc_appathon_app_youtube_video_statistics","id":"dGFibGV4X3NuY19hcHBhdGhvbl9hcHBfeW91dHViZV92aWRlb19zdGF0aXN0aWNzMTY4Mjk0Njg3OTg2NA==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Comments","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X3NuY19hcHBhdGhvbl9hcHBfeW91dHViZV92aWRlb19zdGF0aXN0aWNzMTY4Mjk0Njg3OTg2NA==","id":"ZEdGaWJHVjRYM051WTE5aGNIQmhkR2h2Ymw5aGNIQmZlVzkxZEhWaVpWOTJhV1JsYjE5emRHRjBhWE4wYVdOek1UWTRNamswTmpnM09UZzJOQT09MTY4Mjk0Njg4MDgwMg==","aggregateFunction":"SUM","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"comment_count"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default"}</component_props>
+        <h>9</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>charles.valdez</sys_created_by>
+        <sys_created_on>2023-05-01 13:33:56</sys_created_on>
+        <sys_id>cf59ece10c6621107f44d1bf35a1ab98</sys_id>
+        <sys_name/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>par_dashboard_widget_cf59ece10c6621107f44d1bf35a1ab98</sys_update_name>
+        <visualization/>
+        <w>13</w>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+</record_update>

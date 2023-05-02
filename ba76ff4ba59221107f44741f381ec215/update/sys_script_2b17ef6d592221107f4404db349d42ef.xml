@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_appathon_app_youtube_video_comments</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Compute Score BR</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr = new GlideRecord("x_snc_appathon_app_score_card");
+gr.query();
+if(gr.next()){
+	var y1 = 0;
+	var y2 = 0;
+	var y3 = 0;
+	var y4 = 0;
+	var count1 = 0;
+	var count2 = 0;
+    var duplicateYTFind = [];
+	//Youtube Get Current Campaigns Active
+	var gr2 = new GlideRecord("x_snc_appathon_app_youtube_video_statistics");
+gr2.addEncodedQuery("video.campaign.start_date<=javascript:gs.endOfToday()^video.campaign.end_date>=javascript:gs.beginningOfToday()");
+	gr2.query();
+	while(gr2.next()){
+        if(duplicateYTFind.indexOf(gr2.getValue("video")) == -1){
+            duplicateYTFind.push(gr2.getValue("video"));
+		count1++;
+		y1 = y1+(gr2.comment_count / (gr2.view_count+1));
+		y2 = y2+(gr2.like_count/(gr2.view_count+1));
+        }
+	}
+	y1 = y1/count1 * 100;
+	y2 = y2/count1 * 100;
+    gs.info(y1);
+    gs.info(y2);
+    gs.info(count1);
+	
+	if(y1 >= 0.5){
+		y1 = 33;
+	}
+	else{
+		y1 = y1/0.5 * 33;
+	}
+	
+	if(y2 >= 4){
+		y2 = 33;
+	}
+	else{
+		y2 = y2/4 * 33;
+	}
+	gr.setValue("yt1", y1);
+	gr.setValue("yt2", y2);
+	
+	var gr3 = new GlideRecord("x_snc_appathon_app_youtube_video_comments");
+	gr3.addEncodedQuery("video.campaign.start_date<=javascript:gs.endOfToday()^video.campaign.end_date>=javascript:gs.beginningOfToday()");
+	gr3.query();
+	while(gr3.next()){
+		count2 = count2+1;
+		y3 = y3+ gr3.sentiment_score;
+	}
+	y3 = y3/count2;
+	y3 = (y3+1)/2 * 33;
+	gr.setValue("yt3", y3);
+	
+	//Twitter Computation here (use t1, t2, t3, t4 to store the values);
+	//Each t1+t2+t3+t4 is expected to total to 100, if you will opt out to not use for example t4, adjust t1,t2,t3 to still total to 100 and leave t4 as 0;
+	var t1 = 0;
+	var t2 = 0;
+	var t3 = 0;
+	var t4 = 0;
+	var count3 = 0;
+	var gr4 = new GlideRecord("x_snc_appathon_app_twitter_mentions");
+	gr4.query();
+	while(gr4.next()){
+		count3 = count3+1;
+		t3 = t3+ gr4.sentiment_score;
+	}
+	t3 = t3/count3;
+	t3 = (t3+1)/2 * 33;
+	gr.setValue("t3", t3);
+	
+	//End Twitter Computation Here
+	
+	var totScore = (y1+y2+y3+y4+t1+t2+t3+t4);
+	gr.setValue("total_score",totScore);
+	gr.update();
+}
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>julius.balgos</sys_created_by>
+        <sys_created_on>2023-05-02 03:23:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b17ef6d592221107f4404db349d42ef</sys_id>
+        <sys_name>Compute Score BR</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Appathon App" source="x_snc_appathon_app">ba76ff4ba59221107f44741f381ec215</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appathon App">ba76ff4ba59221107f44741f381ec215</sys_scope>
+        <sys_update_name>sys_script_2b17ef6d592221107f4404db349d42ef</sys_update_name>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b17ef6d592221107f4404db349d42ef"/>
+</record_update>
